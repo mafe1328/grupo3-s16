@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_sugerencias.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+    rel="stylesheet">
+    <title>TreasuryBoard - Sugerencias</title>
+</head>
+<body>
+    <div class="barra_menu">
+        <img src="imagenes/Logo.PNG" alt="" class="logo">
+        <ul class="menu">
+            <li class="nosotros"><a href="#">Nosotros</a></li>
+            <li class="sugerencias"><a href="sugerencias.html">Sugerencias</a></li>
+            <li class="contacto"><a href="#">Contacto</a></li>
+            <li class="ingresar"><a href="login2.php" class="ingresar_texto"><img src="Flecha ingreso.PNG" alt=""> Ingresar</a></li>
+            <li class="registrarme"><a href="register.html" class="registro_texto">Registrarme</a></li>
+        </ul>
+    </div>
+    <div class="contenido">
+        <div>
+            <p>¿Deseas hacer alguna consulta?¿Pasabas por aqui y te apetece saludar? br o tienes alguna <br>
+                Sugerencia Mandanos un correo y te responderemos a la velocidad de un rayo
+            </p>
+            <a href="#">treasuryboard@gmail.com</a>
+        </div>
+        <div class="formulario">
+            <form action="#">
+                <div class="form_camp1">
+                    <div class="campo1">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa">
+                    </div>
+                    <div class="campo1">
+                        <label for="fecha">Fecha</label>
+                        <input type="date" id="fecha" name="fecha">
+                    </div>
+                </div>
+                <div class="form_camp2">
+                    <div class="campo22">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="campo23">
+                        <label for="tema">Tema</label>
+                        <input type="text" id="tema" name="tema">
+                    </div>
+                    <div class="campo2">
+                        <label for="descripción">Descripción</label>
+                        <input type="text" id="descripción" name="descripción">
+                    </div>
+                </div>
+                <div>
+                    <button type="button" onclick="alert('Tu sugerencia se ha enviado con éxito')">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
